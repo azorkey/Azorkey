@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Azorkey - Luxury you can afford. Premium products delivered to your door.">
+  <title>AZORKEY | Premium Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <a href="#" class="logo">AZORKEY</a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">&#9776;</button>
+  <nav id="mainNav">
+    <ul>
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="#featured">Featured</a></li>
+      <li><a href="#offer">Offers</a></li>
+      <li><a href="#">Cart <span class="cart-count" id="cartCount">0</span></a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <canvas id="particles"></canvas>
+  <div class="glow-orb a"></div>
+  <div class="glow-orb b"></div>
+  <div class="hero-content">
+    <span class="eyebrow">New Collection 2026</span>
+    <h1>Luxury You Can <span class="gold-text">Afford</span></h1>
+    <p>Handpicked premium products, delivered straight to your door. Quality that shines, prices that make sense.</p>
+    <div class="hero-buttons">
+      <a href="#featured" class="btn btn-gold">Shop Now</a>
+      <a href="#categories" class="btn btn-outline">Explore Categories</a>
+    </div>
+  </div>
+  <div class="scroll-hint"></div>
+</section>
+
+<section id="categories">
+  <div class="section-head reveal">
+    <span>Browse</span>
+    <h2>Shop by Category</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="grid-categories">
+    <a href="#" class="category reveal">
+      <div class="icon">&#x231A;</div>
+      <h3>Accessories</h3>
+      <p>Watches, bags &amp; more</p>
+    </a>
+    <a href="#" class="category reveal">
+      <div class="icon">&#x1F3A7;</div>
+      <h3>Electronics</h3>
+      <p>Gadgets for everyday life</p>
+    </a>
+    <a href="#" class="category reveal">
+      <div class="icon">&#x1F3E0;</div>
+      <h3>Home &amp; Living</h3>
+      <p>Comfort with a touch of gold</p>
+    </a>
+    <a href="#" class="category reveal">
+      <div class="icon">&#x1F48E;</div>
+      <h3>Beauty &amp; Care</h3>
+      <p>Glow from the inside out</p>
+    </a>
+  </div>
+</section>
+
+<section id="featured" class="section-products">
+  <div class="section-head reveal">
+    <span>Best Sellers</span>
+    <h2>Featured Products</h2>
+    <div class="divider"></div>
+  </div>
+  <div class="grid-products">
+    <div class="product reveal">
+      <div class="product-img" style="background: linear-gradient(135deg,#3a2c05,#8a6a14);"><span class="badge">BEST SELLER</span>&#x231A;</div>
+      <div class="product-body">
+        <h3>Azorkey Classic Watch</h3>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="price-row">
+          <div class="price">$49 <s>$89</s></div>
+          <button class="btn btn-gold btn-small add-btn" data-name="Azorkey Classic Watch">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="product reveal">
+      <div class="product-img" style="background: linear-gradient(135deg,#1a1a1a,#4a3a0c);"><span class="badge">NEW</span>&#x1F3A7;</div>
+      <div class="product-body">
+        <h3>Glow Wireless Earbuds</h3>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div class="price-row">
+          <div class="price">$29 <s>$54</s></div>
+          <button class="btn btn-gold btn-small add-btn" data-name="Glow Wireless Earbuds">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="product reveal">
+      <div class="product-img" style="background: linear-gradient(135deg,#2b2104,#b8921f);">&#x1F4A1;</div>
+      <div class="product-body">
+        <h3>Golden Hour LED Lamp</h3>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="price-row">
+          <div class="price">$24 <s>$40</s></div>
+          <button class="btn btn-gold btn-small add-btn" data-name="Golden Hour LED Lamp">Shop Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="product reveal">
+      <div class="product-img" style="background: linear-gradient(135deg,#0f0c02,#7a5f14);"><span class="badge">HOT</span>&#x1F451;</div>
+      <div class="product-body">
+        <h3>Royal Gold Tote Bag</h3>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="price-row">
+          <div class="price">$36 <s>$60</s></div>
+          <button class="btn btn-gold btn-small add-btn" data-name="Royal Gold Tote Bag">Shop Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="offer">
+  <div class="promo reveal">
+    <h2>Limited Time: <span class="gold-text">Free Shipping</span></h2>
+    <p>On all orders above $50. Offer ends soon.</p>
+    <a href="#featured" class="btn btn-gold">Shop Now</a>
+  </div>
+</section>
+
+<footer>
+  <div class="logo">AZORKEY</div>
+  <div class="footer-links">
+    <a href="#">About</a>
+    <a href="#">Shipping</a>
+    <a href="#">Returns</a>
+    <a href="#">Contact</a>
+  </div>
+  <p>&copy; 2026 Azorkey. All rights reserved.</p>
+</footer>
+
+<div class="toast" id="toast">Added to cart</div>
+
+<script src="script.js"></script>
+</body>
+</html>
